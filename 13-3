@@ -1,0 +1,23 @@
+package hw13_3.java;
+
+public class homework {
+
+	public static void main(String[] args) {
+		try {
+			int num=12, den=0;
+			int ans = num/den;
+			System.out.println("ans=" +ans);
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("den 0");
+		}
+		finally {
+		System.out.println("end of main()!! method");
+		}
+
+		
+
+	}
+
+}
